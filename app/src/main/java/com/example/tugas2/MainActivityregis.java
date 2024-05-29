@@ -12,13 +12,13 @@ import androidx.core.view.WindowInsetsCompat;
 import android.view.View;
 import android.content.Intent;
 
-public class loginregis extends AppCompatActivity {
+public class MainActivityregis extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_loginregis);
+        setContentView(R.layout.activity_main_activityregis);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -26,15 +26,16 @@ public class loginregis extends AppCompatActivity {
         });
     }
 
-    public void geser1(View view) {
-        Intent geser1 = new Intent(loginregis.this, MainActivitylogin.class);
-        startActivity(geser1);
+    public void mundur2(View view) {
+        Intent mundur2 = new Intent(MainActivityregis.this, loginregis.class);
+        startActivity(mundur2);
 
     }
 
-    public void geser2(View view) {
-        Intent geser2 = new Intent(loginregis.this, MainActivityregis.class);
-        startActivity(geser2);
+    public void home2(View view) {
+        Intent home2 = new Intent(MainActivityregis.this, MainActivitylogin.class);
+        startActivity(home2);
 
     }
+
 }
