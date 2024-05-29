@@ -13,10 +13,37 @@
         android:theme="@style/Theme.Tugas2"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivitymainmenu"
+            android:name=".MainActivity_scan_tutupbotolhijau"
             android:exported="false" />
         <activity
-            android:name=".MainActivityhome"
+            android:name=".MainActivity_scan_tutupbotolmerah"
+            android:exported="false" />
+        <activity
+            android:name=".activity_selamat_undian"
+            android:exported="false" />
+        <activity
+            android:name=".activity_selamat_klaimtutupbotol"
+            android:exported="false" />
+        <activity
+            android:name=".activity_royalvaganza"
+            android:exported="false" />
+        <activity
+            android:name=".activity_extravaganza"
+            android:exported="false" />
+        <activity
+            android:name=".activity_redeemvolume2"
+            android:exported="false" />
+        <activity
+            android:name=".activity_redeemvolume1"
+            android:exported="false" />
+        <activity
+            android:name=".activity_scan_ktpaqua"
+            android:exported="false" />
+        <activity
+            android:name=".scan_tutupbotolaqua"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitymainmenu"
             android:exported="false" />
         <activity
             android:name=".MainActivityregis"
@@ -36,6 +63,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CaptureAct"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme" />
     </application>
 
 </manifest>

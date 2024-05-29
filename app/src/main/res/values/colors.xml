@@ -4,4 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="red">#D81B60</color>
     <color name="blue">#1A529D</color>
+    <color name="semiblack">#4D4D4D</color>
+    <color name="blackscan">#4E5355</color>
+
 </resources>
